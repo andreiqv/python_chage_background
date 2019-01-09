@@ -63,6 +63,6 @@ def split_copy_files(src_dir, dst_dir, parts, ratio=[1,1,1]):
 
 if __name__ == '__main__':
 
-	#split_copy_files(src_dir, dst_dir, parts, ratio=[85,15,0])
-	split_copy_files(src_dir, dst_dir, parts, ratio=[1,1,0])
+	split_copy_files(src_dir, dst_dir, parts, ratio=[85,15,0])
+	#split_copy_files(src_dir, dst_dir, parts, ratio=[1,1,0])
 
